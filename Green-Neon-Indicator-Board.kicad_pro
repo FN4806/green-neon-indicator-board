@@ -256,7 +256,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Green-Neon-Indicator-Board.kicad_pro",
+    "filename": "green-neon-indicator-board.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -424,8 +424,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Green-Neon-Indicator-Board.kicad_sch",
-        "name": "Green-Neon-Indicator-Board",
+        "filename": "green-neon-indicator-board.kicad_sch",
+        "name": "green-neon-indicator-board",
         "uuid": "247b5003-8a74-4fd7-be2d-86a1677ad5bd"
       }
     ],
