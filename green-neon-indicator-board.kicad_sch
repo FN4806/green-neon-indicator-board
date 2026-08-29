@@ -4880,6 +4880,17 @@
 				)
 			)
 		)
+		(property "mpn" "LM5155DSSR"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "5"
 			(uuid "9948d8a5-7980-4df6-91a7-678aa60a0e0f")
 		)
@@ -5110,7 +5121,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UNDEF"
+		(property "Value" "10k"
 			(at 47.498 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5144,6 +5155,17 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 45.72 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "RC0402FR-0710KL"
 			(at 45.72 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -5744,7 +5766,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "PJA138K"
 			(at 64.77 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5755,7 +5777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 63.5 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5778,6 +5800,28 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 58.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "PJA138K_R1_00001"
+			(at 58.42 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Field6" ""
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -5829,7 +5873,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Q_NMOS"
+		(property "Value" "PJA138K"
 			(at 49.53 149.8599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5840,7 +5884,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 48.26 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -5863,6 +5907,17 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
+			(at 43.18 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "PJA138K_R1_00001"
 			(at 43.18 148.59 0)
 			(hide yes)
 			(show_name no)
