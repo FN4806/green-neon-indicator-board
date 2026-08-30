@@ -3877,6 +3877,16 @@
 		)
 		(uuid "1b58320a-5d65-44c2-9d40-0b66bb108b40")
 	)
+	(label "FB"
+		(at 138.43 101.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35f5a700-e29f-445d-ae33-d9dfc8853c85")
+	)
 	(label "BOOST_EN"
 		(at 58.42 69.85 0)
 		(effects
@@ -3886,6 +3896,16 @@
 			(justify left bottom)
 		)
 		(uuid "663e81be-c30e-4076-b121-3ba24642fbbf")
+	)
+	(label "CS"
+		(at 104.14 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7cd54a30-6cd0-43a0-a28d-ee944a438e56")
 	)
 	(label "EN_INPUT"
 		(at 27.94 148.59 0)
@@ -4053,7 +4073,18 @@
 				)
 			)
 		)
-		(property "mpn" "GRM31CR72D104KW03L"
+		(property "mpn" "C113894"
+			(at 149.86 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "CC1206KKX7RABB104"
 			(at 149.86 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4146,7 +4177,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-071ML"
+		(property "mpn" "C138033"
+			(at 173.99 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-071ML"
 			(at 173.99 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4317,7 +4359,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07499KL"
+		(property "mpn" "C137971"
+			(at 144.78 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-07499KL"
 			(at 144.78 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -4409,7 +4462,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07100KL"
+		(property "mpn" "C60491"
+			(at 60.96 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-07100KL"
 			(at 60.96 127 0)
 			(hide yes)
 			(show_name no)
@@ -4444,7 +4508,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "21bfa037-764c-4e95-b41a-1f104bf2b28a")
 		(property "Reference" "R11"
@@ -4500,7 +4564,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07330KL"
+		(property "mpn" "C1740085"
+			(at 182.88 46.99 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" " FMP200JR-52-330K"
 			(at 182.88 46.99 90)
 			(hide yes)
 			(show_name no)
@@ -4592,7 +4667,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-0710KL"
+		(property "mpn" "C60490"
+			(at 82.55 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-0710KL"
 			(at 82.55 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -4627,7 +4713,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "3098d9c1-c1f5-4f3f-adf2-485c193a81ba")
 		(property "Reference" "NE1"
@@ -4652,7 +4738,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 191.77 63.5 90)
 			(hide yes)
 			(show_name no)
@@ -4709,7 +4795,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "309c2e9f-c24c-4dbe-829a-8c201f7785c8")
 		(property "Reference" "J1"
@@ -4850,7 +4936,18 @@
 				)
 			)
 		)
-		(property "mpn" "RL0402FR-070R5L"
+		(property "mpn" "C495757"
+			(at 104.14 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RL0402FR-070R5L"
 			(at 104.14 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5021,7 +5118,18 @@
 				)
 			)
 		)
-		(property "mpn" "GRT155R61E474KE01D"
+		(property "mpn" "C782164"
+			(at 82.55 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "GRT155R61E474KE01D"
 			(at 82.55 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5267,7 +5375,18 @@
 				)
 			)
 		)
-		(property "mpn" "US1G-E3/61T"
+		(property "mpn" "C82645"
+			(at 139.7 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "US1G-E3/61T"
 			(at 139.7 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -5439,7 +5558,7 @@
 				)
 			)
 		)
-		(property "mpn" "PJA138K_R1_00001"
+		(property "mpn" "C2902548"
 			(at 43.18 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5450,7 +5569,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
+		(property "manu_part_no" "PJA138K_R1_00001"
 			(at 43.18 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5703,7 +5822,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07499KL"
+		(property "mpn" "C137971"
+			(at 144.78 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-07499KL"
 			(at 144.78 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -5796,6 +5926,28 @@
 				)
 			)
 		)
+		(property "mpn" "C77020"
+			(at 52.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "CC1206KKX7RABB104"
+			(at 52.07 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "ee4b1f4b-c3df-440b-a940-ec8c2db901fa")
 		)
@@ -5845,7 +5997,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5868,6 +6020,28 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "mpn" "C91606"
+			(at 43.18 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "GRM188R61E106MA73D"
 			(at 43.18 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -5959,7 +6133,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07110KL"
+		(property "mpn" "C138065"
+			(at 67.31 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-07110KL"
 			(at 67.31 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5994,7 +6179,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8fab424f-246a-496e-96be-323c90c83aaf")
 		(property "Reference" "T1"
@@ -6050,7 +6235,18 @@
 				)
 			)
 		)
-		(property "mpn" "750311692"
+		(property "mpn" ""
+			(at 121.92 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "750311692"
 			(at 121.92 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -6153,7 +6349,18 @@
 				)
 			)
 		)
-		(property "mpn" "LM5155DSSR"
+		(property "mpn" "C778612"
+			(at 85.09 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "LM5155DSSR"
 			(at 85.09 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6432,7 +6639,18 @@
 				)
 			)
 		)
-		(property "mpn" "IRLML0100TRPBF"
+		(property "mpn" "C53658"
+			(at 107.95 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "IRLML0100TRPBF"
 			(at 107.95 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6606,7 +6824,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-0710KL"
+		(property "mpn" "C60490"
+			(at 45.72 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-0710KL"
 			(at 45.72 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -6777,7 +7006,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-0710KL"
+		(property "mpn" "C60490"
+			(at 144.78 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-0710KL"
 			(at 144.78 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -7103,7 +7343,18 @@
 				)
 			)
 		)
-		(property "mpn" "GRM155R71H104KE14D"
+		(property "mpn" "C77020"
+			(at 78.74 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "GRM155R71H104KE14D"
 			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -7197,7 +7448,7 @@
 				)
 			)
 		)
-		(property "mpn" "PJA138K_R1_00001"
+		(property "mpn" "C2902548"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7208,7 +7459,7 @@
 				)
 			)
 		)
-		(property "Field6" ""
+		(property "manu_part_no" "PJA138K_R1_00001"
 			(at 58.42 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -7304,7 +7555,18 @@
 				)
 			)
 		)
-		(property "mpn" "RC0402FR-07499KL"
+		(property "mpn" "C137971"
+			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "manu_part_no" "RC0402FR-07499KL"
 			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7339,7 +7601,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "f7671082-47f5-4b42-b16c-d3e74a0b02fe")
 		(property "Reference" "J2"
